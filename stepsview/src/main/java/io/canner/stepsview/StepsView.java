@@ -5,7 +5,6 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,7 +53,7 @@ public class StepsView extends LinearLayout implements StepsViewIndicator.OnDraw
         boolean hideProgressText = arr.getBoolean(R.styleable.StepsView_hideProgressText, false);
         float labelSize =arr.getFloat(R.styleable.StepsView_labelSize, 20);
         float progressMargin = arr.getFloat(R.styleable.StepsView_progressMargin, 100);
-        float circleRadius = arr.getFloat(R.styleable.StepsView_circleRadius, 50);
+        float circleRadius = arr.getFloat(R.styleable.StepsView_circleRadiusValue, 50);
         float progressStrokeWidth = arr.getFloat(R.styleable.StepsView_progressStrokeWidth, 5);
 
         mStepsViewIndicator.setStepTotal(numSteps);

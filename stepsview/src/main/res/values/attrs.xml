@@ -11,7 +11,7 @@
         <attr name="hideProgressText" format="boolean"/>
         <attr name="labelSize" format="float"/>
         <attr name="progressMargin" format="float"/>
-        <attr name="circleRadius" format="float"/>
+        <attr name="circleRadiusValue" format="float" />
         <attr name="progressStrokeWidth" format="float"/>
     </declare-styleable>
 </resources>

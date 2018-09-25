@@ -69,7 +69,7 @@
                 custom:labels="@array/labels2"
                 custom:labelSize="20"
                 custom:numOfSteps="5"
-                custom:circleRadius="40"
+                custom:circleRadiusValue="40"
                 custom:progressMargin="150"
                 custom:completePosition="2"
                 style="@style/stepsView"
